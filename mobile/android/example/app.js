@@ -68,8 +68,7 @@ var buttonView = Ti.UI.createView({
 });
 
 var readBtn = Ti.UI.createButton({
-  title: "Read",
-  right: 10
+  title: "Read"
 });
 readBtn.addEventListener('click', function() {
   channelText.blur();
@@ -82,8 +81,7 @@ readBtn.addEventListener('click', function() {
 buttonView.add(readBtn);
 
 var writeBtn = Ti.UI.createButton({
-  title: "Write",
-  right: 10
+  title: "Write"
 });
 writeBtn.addEventListener('click', function() {
   channelText.blur();
@@ -96,8 +94,7 @@ writeBtn.addEventListener('click', function() {
 buttonView.add(writeBtn);
 
 var connStateBtn = Ti.UI.createButton({
-  title: "Conn State",
-  right: 10
+  title: "Conn State"
 });
 connStateBtn.addEventListener("click", function(e) {
   device.fetchConnectionState(function(err, data) {
@@ -122,7 +119,7 @@ streamToggleBtn.addEventListener("click", function() {
   };
   
   if (streaming) {
-    device.removeEventListener("stream", listener); // removeEventListener not firing on Android
+    device.removeAllListeners("stream"); // removeEventListener not firing on Android
     streamToggleBtn.title = "Start Streaming";
     streaming = false;
   }
