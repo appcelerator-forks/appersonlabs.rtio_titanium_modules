@@ -1,4 +1,4 @@
-var iobridge = require('appersonlabs.iobridge');
+var iobridge = require('com.iobridge.realtime');
 Ti.API.info("module is => " + iobridge);
 
 var device = iobridge.createDevice({

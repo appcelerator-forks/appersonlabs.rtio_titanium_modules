@@ -2,17 +2,17 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0
+version: 1.1
 apiversion: 2
-description: My module
-author: Apperson Labs
-license: Specify your license
-copyright: © 2013 Apperson Labs
+description: ioBridge RealTime Module
+author: ioBridge
+license: MIT
+copyright: Copyright (c) 2013 by ioBridge
 
 
 # these should not be edited
-name: iobridge
-moduleid: appersonlabs.iobridge
+name: RealTime
+moduleid: com.iobridge.realtime
 guid: 569cc569-8ccc-4ac5-a498-ad0451b6c0c7
 platform: iphone
 minsdk: 3.1.0.GA
