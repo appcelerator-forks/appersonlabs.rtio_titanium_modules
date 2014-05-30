@@ -22,9 +22,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DD6CF91134B3F500162E58 /* AppersonlabsIobridgeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* AppersonlabsIobridgeModule.h */; };
-		24DD6CFA1134B3F500162E58 /* AppersonlabsIobridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* AppersonlabsIobridgeModule.m */; };
-		AA747D9F0F9514B9006C5449 /* AppersonlabsIobridge_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* AppersonlabsIobridge_Prefix.pch */; };
+		24DD6CF91134B3F500162E58 /* IobridgeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* IobridgeModule.h */; };
+		24DD6CFA1134B3F500162E58 /* IobridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* IobridgeModule.m */; };
+		AA747D9F0F9514B9006C5449 /* Iobridge_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* Iobridge_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		DA24C933175BC2CE00BCAA3A /* AFHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DA24C920175BC2CE00BCAA3A /* AFHTTPClient.h */; };
 		DA24C934175BC2CE00BCAA3A /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA24C921175BC2CE00BCAA3A /* AFHTTPClient.m */; };
@@ -49,8 +49,8 @@
 		DA24C949175BC31900BCAA3A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA24C948175BC31900BCAA3A /* MobileCoreServices.framework */; };
 		DA6CF37C1767E33300F8348E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6CF37B1767E33300F8348E /* CoreGraphics.framework */; };
 		DA6CF37E1767E33B00F8348E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6CF37D1767E33B00F8348E /* UIKit.framework */; };
-		DA94CAA8175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DA94CAA6175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.h */; };
-		DA94CAA9175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA94CAA7175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.m */; };
+		DA94CAA8175BD5AE004BA3D7 /* IobridgeDeviceProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DA94CAA6175BD5AE004BA3D7 /* IobridgeDeviceProxy.h */; };
+		DA94CAA9175BD5AE004BA3D7 /* IobridgeDeviceProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA94CAA7175BD5AE004BA3D7 /* IobridgeDeviceProxy.m */; };
 		DADECA841768240F00B2D4EA /* NSBundle+YAJL.h in Headers */ = {isa = PBXBuildFile; fileRef = DADEC9581768240F00B2D4EA /* NSBundle+YAJL.h */; };
 		DADECA851768240F00B2D4EA /* NSBundle+YAJL.m in Sources */ = {isa = PBXBuildFile; fileRef = DADEC9591768240F00B2D4EA /* NSBundle+YAJL.m */; };
 		DADECA861768240F00B2D4EA /* NSObject+YAJL.h in Headers */ = {isa = PBXBuildFile; fileRef = DADEC95A1768240F00B2D4EA /* NSObject+YAJL.h */; };
@@ -110,12 +110,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* AppersonlabsIobridgeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppersonlabsIobridgeModule.h; path = Classes/AppersonlabsIobridgeModule.h; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* AppersonlabsIobridgeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppersonlabsIobridgeModule.m; path = Classes/AppersonlabsIobridgeModule.m; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* IobridgeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = IobridgeModule.h; path = Classes/IobridgeModule.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		24DD6CF81134B3F500162E58 /* IobridgeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = IobridgeModule.m; path = Classes/IobridgeModule.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* AppersonlabsIobridge_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppersonlabsIobridge_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AA747D9E0F9514B9006C5449 /* Iobridge_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iobridge_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libAppersonlabsIobridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppersonlabsIobridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libIobridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIobridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA24C920175BC2CE00BCAA3A /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
 		DA24C921175BC2CE00BCAA3A /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
 		DA24C922175BC2CE00BCAA3A /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 		DA24C948175BC31900BCAA3A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		DA6CF37B1767E33300F8348E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DA6CF37D1767E33B00F8348E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		DA94CAA6175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppersonlabsIobridgeDeviceProxy.h; path = Classes/AppersonlabsIobridgeDeviceProxy.h; sourceTree = "<group>"; };
-		DA94CAA7175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppersonlabsIobridgeDeviceProxy.m; path = Classes/AppersonlabsIobridgeDeviceProxy.m; sourceTree = "<group>"; };
+		DA94CAA6175BD5AE004BA3D7 /* IobridgeDeviceProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = IobridgeDeviceProxy.h; path = Classes/IobridgeDeviceProxy.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DA94CAA7175BD5AE004BA3D7 /* IobridgeDeviceProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = IobridgeDeviceProxy.m; path = Classes/IobridgeDeviceProxy.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DADEC9581768240F00B2D4EA /* NSBundle+YAJL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+YAJL.h"; sourceTree = "<group>"; };
 		DADEC9591768240F00B2D4EA /* NSBundle+YAJL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+YAJL.m"; sourceTree = "<group>"; };
 		DADEC95A1768240F00B2D4EA /* NSObject+YAJL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YAJL.h"; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libAppersonlabsIobridge.a */,
+				D2AAC07E0554694100DB518D /* libIobridge.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,10 +241,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				24DD6CF71134B3F500162E58 /* AppersonlabsIobridgeModule.h */,
-				24DD6CF81134B3F500162E58 /* AppersonlabsIobridgeModule.m */,
-				DA94CAA6175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.h */,
-				DA94CAA7175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.m */,
+				24DD6CF71134B3F500162E58 /* IobridgeModule.h */,
+				24DD6CF81134B3F500162E58 /* IobridgeModule.m */,
+				DA94CAA6175BD5AE004BA3D7 /* IobridgeDeviceProxy.h */,
+				DA94CAA7175BD5AE004BA3D7 /* IobridgeDeviceProxy.m */,
 				DAFCB45D175DA7E000E3BDCE /* StreamingJSONRequestOperation.h */,
 				DAFCB45E175DA7E000E3BDCE /* StreamingJSONRequestOperation.m */,
 			);
@@ -254,7 +254,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* AppersonlabsIobridge_Prefix.pch */,
+				AA747D9E0F9514B9006C5449 /* Iobridge_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
@@ -420,8 +420,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* AppersonlabsIobridge_Prefix.pch in Headers */,
-				24DD6CF91134B3F500162E58 /* AppersonlabsIobridgeModule.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* Iobridge_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* IobridgeModule.h in Headers */,
 				DA24C933175BC2CE00BCAA3A /* AFHTTPClient.h in Headers */,
 				DA24C935175BC2CE00BCAA3A /* AFHTTPRequestOperation.h in Headers */,
 				DA24C937175BC2CE00BCAA3A /* AFImageRequestOperation.h in Headers */,
@@ -432,7 +432,7 @@
 				DA24C940175BC2CE00BCAA3A /* AFURLConnectionOperation.h in Headers */,
 				DA24C942175BC2CE00BCAA3A /* AFXMLRequestOperation.h in Headers */,
 				DA24C944175BC2CE00BCAA3A /* UIImageView+AFNetworking.h in Headers */,
-				DA94CAA8175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.h in Headers */,
+				DA94CAA8175BD5AE004BA3D7 /* IobridgeDeviceProxy.h in Headers */,
 				DAFCB45F175DA7E000E3BDCE /* StreamingJSONRequestOperation.h in Headers */,
 				DADECA841768240F00B2D4EA /* NSBundle+YAJL.h in Headers */,
 				DADECA861768240F00B2D4EA /* NSObject+YAJL.h in Headers */,
@@ -480,7 +480,7 @@
 			);
 			name = iobridge;
 			productName = iobridge;
-			productReference = D2AAC07E0554694100DB518D /* libAppersonlabsIobridge.a */;
+			productReference = D2AAC07E0554694100DB518D /* libIobridge.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -488,6 +488,8 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "iobridge" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -530,7 +532,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6CFA1134B3F500162E58 /* AppersonlabsIobridgeModule.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* IobridgeModule.m in Sources */,
 				DA24C934175BC2CE00BCAA3A /* AFHTTPClient.m in Sources */,
 				DA24C936175BC2CE00BCAA3A /* AFHTTPRequestOperation.m in Sources */,
 				DA24C938175BC2CE00BCAA3A /* AFImageRequestOperation.m in Sources */,
@@ -540,7 +542,7 @@
 				DA24C941175BC2CE00BCAA3A /* AFURLConnectionOperation.m in Sources */,
 				DA24C943175BC2CE00BCAA3A /* AFXMLRequestOperation.m in Sources */,
 				DA24C945175BC2CE00BCAA3A /* UIImageView+AFNetworking.m in Sources */,
-				DA94CAA9175BD5AE004BA3D7 /* AppersonlabsIobridgeDeviceProxy.m in Sources */,
+				DA94CAA9175BD5AE004BA3D7 /* IobridgeDeviceProxy.m in Sources */,
 				DAFCB460175DA7E000E3BDCE /* StreamingJSONRequestOperation.m in Sources */,
 				DADECA851768240F00B2D4EA /* NSBundle+YAJL.m in Sources */,
 				DADECA871768240F00B2D4EA /* NSObject+YAJL.m in Sources */,
@@ -580,12 +582,12 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/AppersonlabsIobridge.dst;
+				DSTROOT = /tmp/iobridge.dst;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AppersonlabsIobridge_Prefix.pch;
+				GCC_PREFIX_HEADER = Iobridge_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -614,7 +616,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = AppersonlabsIobridge;
+				PRODUCT_NAME = Iobridge;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -628,12 +630,12 @@
 			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/AppersonlabsIobridge.dst;
+				DSTROOT = /tmp/iobridge.dst;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AppersonlabsIobridge_Prefix.pch;
+				GCC_PREFIX_HEADER = Iobridge_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -659,7 +661,7 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PRODUCT_NAME = AppersonlabsIobridge;
+				PRODUCT_NAME = Iobridge;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -673,12 +675,12 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DSTROOT = /tmp/AppersonlabsIobridge.dst;
+				DSTROOT = /tmp/Iobridge.dst;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AppersonlabsIobridge_Prefix.pch;
+				GCC_PREFIX_HEADER = Iobridge_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -697,7 +699,7 @@
 					"-DTI_POST_1_2",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AppersonlabsIobridge;
+				PRODUCT_NAME = Iobridge;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
@@ -712,12 +714,12 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				DSTROOT = /tmp/AppersonlabsIobridge.dst;
+				DSTROOT = /tmp/Iobridge.dst;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AppersonlabsIobridge_Prefix.pch;
+				GCC_PREFIX_HEADER = Iobridge_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_VERSION = "";
@@ -733,7 +735,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DTI_POST_1_2";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = AppersonlabsIobridge;
+				PRODUCT_NAME = Iobridge;
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "";

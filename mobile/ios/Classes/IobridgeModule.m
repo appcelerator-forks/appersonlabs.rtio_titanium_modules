@@ -4,12 +4,12 @@
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
-#import "AppersonlabsIobridgeModule.h"
+#import "IobridgeModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
 
-@implementation AppersonlabsIobridgeModule
+@implementation IobridgeModule
 
 #pragma mark Internal
 
@@ -18,7 +18,7 @@
 }
 
 -(NSString*)moduleId {
-	return @"appersonlabs.iobridge";
+	return @".iobridge";
 }
 
 #pragma mark Lifecycle

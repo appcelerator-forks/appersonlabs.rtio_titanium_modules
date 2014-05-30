@@ -8,7 +8,7 @@
 
 #import "TiProxy.h"
 
-@interface AppersonlabsIobridgeDeviceProxy : TiProxy
+@interface IobridgeDeviceProxy : TiProxy
 
 @property (nonatomic, readonly) NSString * apikey;
 @property (nonatomic, readonly) NSString * serial;

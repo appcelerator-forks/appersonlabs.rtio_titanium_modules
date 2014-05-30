@@ -6,7 +6,7 @@
  * Please see the LICENSE included with this distribution for details.
  *
  */
-package appersonlabs.iobridge;
+package com.iobridge.realtime;
 
 import org.appcelerator.kroll.KrollDict;
 import org.appcelerator.kroll.KrollModule;
@@ -14,10 +14,10 @@ import org.appcelerator.kroll.annotations.Kroll;
 import org.appcelerator.kroll.common.Log;
 import org.appcelerator.titanium.TiApplication;
 
-@Kroll.module(name = "Iobridge", id = "appersonlabs.iobridge")
-public class AppersonlabsIoBridgeModule extends KrollModule {
+@Kroll.module(name = "RealTime", id = "com.iobridge.realtime")
+public class RealTimeModule extends KrollModule {
 
-    private static final String TAG = "ioBridgeModule";
+    private static final String TAG = "realTimeModule";
 
     @Kroll.onAppCreate
     public static void onAppCreate(TiApplication app) {

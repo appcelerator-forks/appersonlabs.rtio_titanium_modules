@@ -6,7 +6,7 @@
  */
 #import "TiModule.h"
 
-@interface AppersonlabsIobridgeModule : TiModule 
+@interface IobridgeModule : TiModule 
 {
 }
 

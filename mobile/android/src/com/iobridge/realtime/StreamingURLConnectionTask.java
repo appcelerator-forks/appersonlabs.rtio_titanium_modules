@@ -1,4 +1,4 @@
-package appersonlabs.iobridge;
+package com.iobridge.realtime;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -6,8 +6,8 @@
 //
 //
 
-#import "AppersonlabsIobridgeDeviceProxy.h"
-#import "AppersonlabsIobridgeModule.h"
+#import "IobridgeDeviceProxy.h"
+#import "IobridgeModule.h"
 
 #import "AFHTTPClient.h"
 #import "AFJSONRequestOperation.h"
@@ -25,13 +25,13 @@
 typedef void (^JsonSuccess)(NSURLRequest *request, NSHTTPURLResponse *response, id JSON);
 typedef void (^JsonFailure)(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON);
 
-@interface AppersonlabsIobridgeDeviceProxy ()
+@interface IobridgeDeviceProxy ()
 @property (nonatomic, strong) AFHTTPClient * client;
 - (void)sendGETJSONRequestWithPath:(NSString *)path parameters:(NSDictionary *)params callback:(KrollCallback *)callback;
 - (void)sendPOSTJSONRequestWithPath:(NSString *)path parameters:(NSDictionary *)params callback:(KrollCallback *)callback;
 @end
 
-@implementation AppersonlabsIobridgeDeviceProxy
+@implementation IobridgeDeviceProxy
 
 - (void)_initWithProperties:(NSDictionary *)properties {
     [super _initWithProperties:properties];
@@ -160,7 +160,7 @@ typedef void (^JsonFailure)(NSURLRequest *request, NSHTTPURLResponse *response, 
     
     JsonFailure failure = ^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         TiThreadPerformOnMainThread(^{
-            [callback call:[NSArray arrayWithObjects:[AppersonlabsIobridgeModule errorAsDict:error], JSON, nil] thisObject:nil];
+            [callback call:[NSArray arrayWithObjects:[IobridgeModule errorAsDict:error], JSON, nil] thisObject:nil];
         }, NO);
     };
     
@@ -181,7 +181,7 @@ typedef void (^JsonFailure)(NSURLRequest *request, NSHTTPURLResponse *response, 
     
     JsonFailure failure = ^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         TiThreadPerformOnMainThread(^{
-            [callback call:[NSArray arrayWithObjects:[AppersonlabsIobridgeModule errorAsDict:error], JSON, nil] thisObject:nil];
+            [callback call:[NSArray arrayWithObjects:[IobridgeModule errorAsDict:error], JSON, nil] thisObject:nil];
         }, NO);
     };
     

@@ -18,7 +18,7 @@ to build interactivity between mobile devices and embedded devices via Appcelera
 
 To access this module from JavaScript, you would do the following:
 
-    var iobridge = require("appersonlabs.iobridge");
+    var iobridge = require("com.iobridge.realtime");
 
 <a name="module"/>
 ## Module

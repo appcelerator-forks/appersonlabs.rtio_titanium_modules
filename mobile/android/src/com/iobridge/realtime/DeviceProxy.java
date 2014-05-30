@@ -1,4 +1,4 @@
-package appersonlabs.iobridge;
+package com.iobridge.realtime;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -20,7 +20,7 @@ import com.turbomanage.httpclient.HttpResponse;
 import com.turbomanage.httpclient.ParameterMap;
 import com.turbomanage.httpclient.android.AndroidHttpClient;
 
-@Kroll.proxy(creatableInModule = AppersonlabsIoBridgeModule.class)
+@Kroll.proxy(creatableInModule = RealTimeModule.class)
 public class DeviceProxy extends KrollProxy {
 
     private static class KrollAsyncCallback extends AsyncCallback {

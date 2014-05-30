@@ -8,7 +8,7 @@ TODO: Enter your module description here
 
 To access this module from JavaScript, you would do the following:
 
-	var iobridge = require("appersonlabs.iobridge");
+	var iobridge = require("com.iobridge.realtime");
 
 The iobridge variable is a reference to the Module object.	
 
